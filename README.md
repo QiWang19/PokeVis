@@ -1,6 +1,6 @@
 # Pokémon Visualization Project Proposal
 
-##Basic Information
+## Basic Information
 Title: Pokémon Visualization  
 Names: Max Levine, Yuchen Liu, Qi Wang  
 E-mail Addresses: mflevine@wpi.edu, yliu4@wpi.edu, qwang12@wpi.edu  
@@ -8,19 +8,19 @@ GitHub Ids: mflevine, yliu4, QiWang19
 Working Link: https://mflevine.github.io/PokeVis/index.html  
 Project Repository: https://github.com/mflevine/PokeVis  
   
-##Team
+## Team
 Max Levine: different versions of second chart (in the final version is a radar chart), writing and optimization  
 Yuchen Liu: different versions of first chart (in the final version is a normalized stack bar chart), writing and optimization  
 Qi Wang: different versions of third chart (in the final version is a bubble pack chart), writing and optimization  
   
-##Background  
+## Background  
 Our project will be based on the data set from Pokémon. Pokémon is a series of video games developed by Game Freak and Creatures Inc. Over the years, the game has been adapted to animated television shows and movies, comic books, and toys.  Especially, in July 2016, a game for iOS and Android devices named Pokémon Go was released. After releasing, Pokémon Go has become the fastest game to top the App Store and Google Play. There is a popular trend to play this game around the world. So we think it would be meaningful to visualize the data in this series game. This kind of visualization would appeal all the people who played the game or heard of the game.  
   
 In the game, there are fictional species called Pokémon. By the end of year 2016, there were totally 802 Pokémon. All the Pokémon are divided roughly by generation. When each generation begins, the number of Pokémon and Pokémon properties will be updated. Our project will mainly focus on the change on each generation and each Pokémon.  
   
 Firstly, we want to know the proportion of different type of Pokémon in each generation. Which type of Pokémon becomes much more in a new generation? We also want to know the profile for each Pokémon with respect to different properties. And how did the properties of each type of Pokémon vary with generations? Apart from the base stats, we also want to describe the change of weight in different generation. After seeing our visualization, people will understand the Pokémon’s characteristic of different generation and easily know the advantages of different type of Pokémon.  
   
-##Data
+## Data
 
 Two data source so far: https://www.kaggle.com/abcsds/pokemon And https://github.com/veekun/pokedex/blob/master/pokedex/data/csv/pokemon.csv  
   
@@ -28,12 +28,12 @@ For Pokémon images: http://pokemondb.net/
   
 If more attributes are needed in the future, we may get these information by calling Pokémon API https://pokeapi.co/docsv2/  
   
-##Data Processing  
+## Data Processing  
 Right now, there are two sources files; File1: Pokémon with its combat attribute and File2: Pokémon with its size attributes. Firstly, File1 contains some duplicated data, such as there are three No.6 Pokémon with different name (in different version of game). The team will do the basic data cleaning by removing these duplications. After that, the team will join both files by Pokémon id. Because both files contain all 721 Pokémon and they are already sorted by Pokémon id, so, this step can be done in Excel spreadsheet directly.  
   
 The attributes we plan to use: Pokémon id, name, type, total, HP, attack, defense, special attack, special defense, speed, generation, height and weight.  
   
-##Visualization Design
+## Visualization Design
 
 For showing the type of different generation, we choose the bar chart instead of pie chart. Because there are so many types. A pie chart becomes less effective if it uses too many pieces of data and differences between some pair of slices are hard to tell.  
   
@@ -53,7 +53,7 @@ Below are our final visualization designs, and as for alternative choices, pleas
 ![](img/proposal-design5.png)  
   
 
-##Must-Have Features  
+## Must-Have Features  
 1.	At least three separate types of charts  
   
 2.	Mouse-over for more information on each chart  
@@ -62,7 +62,7 @@ Below are our final visualization designs, and as for alternative choices, pleas
   
 4.	Use sprites as representation points  
 
-##Optional Features  
+## Optional Features  
 1. Visualize Evolutions  
   
 2. Filter by Type  
@@ -73,7 +73,7 @@ Below are our final visualization designs, and as for alternative choices, pleas
   
 5. Have slider move with viewer    
   
-##Project Schedule  
+## Project Schedule  
 | Due Date | Task |
 | ------| ------ | 
 | Friday 2/17 | 1. Prototype version of 3 Charts | 
@@ -81,7 +81,7 @@ Below are our final visualization designs, and as for alternative choices, pleas
 | Monday 2/26 | 1. Apply Feedback  2. Attempt Optional Features| 
 | Thursday 3/2 | 1. Tweak to Completion  2. Film Video|
 
-##Appendix: Sketches
+## Appendix: Sketches
 ![](img/proposal-sketch1.png)  
 ![](img/proposal-sketch2.png)  
 ![](img/proposal-sketch3.png)  
